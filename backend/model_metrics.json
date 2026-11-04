@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "generated_at": "2026-09-22T17:04:08.165407+00:00",
+  "dataset_rows": 7767,
+  "dataset_columns": 169,
+  "best_model": "random_forest",
+  "labels": [
+    "Excellent",
+    "Good",
+    "Moderate",
+    "Poor",
+    "Very Poor"
+  ],
+  "models": {
+    "random_forest": {
+      "model": "random_forest",
+      "accuracy": 0.9756756756756757,
+      "precision": 0.9636752136752137,
+      "recall": 0.9219636572577748,
+      "f1": 0.9409592564932371
+    },
+    "decision_tree": {
+      "model": "decision_tree",
+      "accuracy": 0.972972972972973,
+      "precision": 0.6583864248958589,
+      "recall": 0.6906714608920491,
+      "f1": 0.6735421836228288
+    },
+    "gradient_boosting": {
+      "model": "gradient_boosting",
+      "accuracy": 0.9783783783783784,
+      "precision": 0.6585342077277562,
+      "recall": 0.6614617000646412,
+      "f1": 0.6599734202674921
+    },
+    "xgboost": {
+      "model": "xgboost",
+      "accuracy": 0.9891891891891892,
+      "precision": 0.9303075862933032,
+      "recall": 0.8916900093370682,
+      "f1": 0.9094716943187531
+    }
+  },
+  "feature_count": 35
+}

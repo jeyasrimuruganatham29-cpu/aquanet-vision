@@ -1,0 +1,86 @@
+{
+  "success": true,
+  "best_model": "random_forest",
+  "feature_importance": [
+    {
+      "feature": "biochemical_oxygen_demand_mg_l",
+      "importance": 0.28284516334510623
+    },
+    {
+      "feature": "electric_conductivity_s_cm",
+      "importance": 0.12459326246953747
+    },
+    {
+      "feature": "turbidity_ntu",
+      "importance": 0.11271634106300754
+    },
+    {
+      "feature": "fecal_coliform_mpn_100ml",
+      "importance": 0.09534367012428566
+    },
+    {
+      "feature": "month",
+      "importance": 0.08641677255783481
+    },
+    {
+      "feature": "total_coliform_mpn_100ml",
+      "importance": 0.06968508051900284
+    },
+    {
+      "feature": "district_avg_district_lgd_code",
+      "importance": 0.039725264652475466
+    },
+    {
+      "feature": "district_avg_latitude",
+      "importance": 0.03834690807335594
+    },
+    {
+      "feature": "district_avg_biochemical_oxygen_demand_mg_l",
+      "importance": 0.034203111721243774
+    },
+    {
+      "feature": "district_avg_turbidity_ntu",
+      "importance": 0.024196957841805943
+    },
+    {
+      "feature": "district_avg_longitude",
+      "importance": 0.020008368123229817
+    },
+    {
+      "feature": "district_avg_total_coliform_mpn_100ml",
+      "importance": 0.015951058148984676
+    },
+    {
+      "feature": "district_avg_fecal_coliform_mpn_100ml",
+      "importance": 0.01323525244812554
+    },
+    {
+      "feature": "district_avg_electric_conductivity_s_cm",
+      "importance": 0.012485687591765212
+    },
+    {
+      "feature": "district_avg_slno",
+      "importance": 0.01035729877508869
+    },
+    {
+      "feature": "dissolved_oxygen_mg_l",
+      "importance": 0.005207809659872657
+    },
+    {
+      "feature": "district_avg_potential_of_hydrogen_ph",
+      "importance": 0.0032552979798297524
+    },
+    {
+      "feature": "potential_of_hydrogen_ph",
+      "importance": 0.002719388792682684
+    },
+    {
+      "feature": "district_avg_dissolved_oxygen_mg_l",
+      "importance": 0.002302894561270981
+    },
+    {
+      "feature": "state_avg_latitude",
+      "importance": 0.002275003612060592
+    }
+  ]
+}
